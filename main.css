@@ -1,0 +1,67 @@
+#rectangle{
+    width:800px;
+    height:256px;
+    background:linear-gradient( 0deg, black, blue);
+    position:absolute;
+}
+
+canvas{
+    position:absolute;
+}
+
+#freqs{
+    width:800px;
+    margin: 0 auto;
+}
+
+#keyboard{
+    width:800px;
+    margin: 0 auto;
+    position:relative;
+}
+
+.white{
+    position:absolute;
+    background-color: white;
+    z-index:0;
+    border:2px solid gray;
+    border-radius: 0px 0px 10px 10px;
+    width:100px;
+    height:256px;
+    margin-top:256px;
+    font-weight:bold;
+    text-align:center;
+    color:black;
+    font-family:Helvetica;
+}
+
+.black{
+    position:absolute;
+    background-color: black;
+    z-index:1;
+    border:2px solid gray;
+    border-radius: 0px 0px 10px 10px;
+    width:80px;
+    height:156px;
+    margin-top:256px;
+    font-weight:bold;
+    text-align:center;
+    color:black;
+    font-family:Helvetica;
+}
+
+.lowtext{
+    margin-top:180px;
+}
+
+.hightext{
+    margin-top:80px;
+    color:white;
+}
+
+#zoomText{
+    width:100%;
+    position:absolute;
+    margin: 550px auto;
+    text-align: center;
+}
